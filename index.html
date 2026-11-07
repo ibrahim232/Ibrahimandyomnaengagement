@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ibrahim &amp; Yomna – Save the Date</title>
+<meta name="description" content="Count down with us to our engagement and send us your wishes.">
+<meta property="og:title" content="Ibrahim & Yomna – Engagement, 26 November 2026">
+<meta property="og:description" content="Open the invitation, count down with us, and send your wishes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&family=Cairo:wght@400;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Pinyon+Script&family=Cairo:wght@400;600&display=swap"></noscript>
+<style>
+:root{--ivory:#FBF8F1;--paper:#fff;--sage:#7E9A82;--leaf:#2F4A3A;--mist:#E4ECE3;--blossom:#F6EFE0;--ink:#26332B;--rose:#B9566A;
+--serif:"Cormorant Garamond","Cairo",Georgia,serif;--script:"Pinyon Script","Snell Roundhand",cursive}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--serif);font-size:20px;line-height:1.55;overflow-x:hidden}
+body.locked{overflow:hidden}
+a{color:var(--leaf)}
+#fx{position:fixed;inset:0;pointer-events:none;z-index:80;overflow:hidden}
+#fx span{position:absolute;left:0;top:0;will-change:transform,opacity;line-height:1}
+.petals{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.petal{position:absolute;top:-30px;width:12px;height:16px;background:#fff;border:1px solid #e3e9de;border-radius:60% 0 60% 0;opacity:.85;animation:fall linear infinite}
+@keyframes fall{to{transform:translate3d(var(--dx),110vh,0) rotate(540deg)}}
+html:not(.js) #env{display:none!important}
+main{position:relative;z-index:2}
+section{max-width:760px;margin:0 auto;padding:56px 22px;text-align:center;position:relative}
+.leaf{position:absolute;width:min(46vw,260px);opacity:.9;pointer-events:none}
+.leaf.tl{top:0;left:0}.leaf.br{bottom:0;right:0;transform:rotate(180deg)}
+.small{letter-spacing:.18em;text-transform:uppercase;font-size:.8rem;color:var(--sage)}
+h1{font-family:var(--script);font-weight:400;font-size:clamp(3.4rem,15vw,6.4rem);line-height:1.05;margin:.1em 0;color:var(--leaf)}
+h1 span{display:block;font-size:.5em;color:var(--sage)}
+h2{font-family:var(--script);font-weight:400;font-size:clamp(2.4rem,9vw,3.4rem);margin:0 0 .2em;color:var(--leaf)}
+.lead{margin:0 auto 1.6em;max-width:34em}
+.ar{font-family:"Cairo",var(--serif);font-size:1.5rem;color:var(--rose);margin:0 0 .4em}
+
+/* envelope intro */
+#env{position:fixed;inset:0;z-index:50;background:radial-gradient(circle at 50% 40%,#fffdf7,#efe9da);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;cursor:pointer;transition:opacity .9s 1.2s,visibility 0s 2.1s}
+#env.open{opacity:0;visibility:hidden}
+.envelope{position:relative;width:min(80vw,340px);aspect-ratio:1.5;perspective:900px;filter:drop-shadow(0 26px 22px rgba(47,74,58,.25))}
+.envelope>div{position:absolute;inset:0}
+.env-back{background:#E3DAC3;border-radius:6px}
+.env-card{inset:7% 7% 6% 7%!important;background:var(--paper);border-radius:4px;display:flex;align-items:center;justify-content:center;flex-direction:column;font-family:var(--script);font-size:clamp(1.5rem,7vw,2.1rem);color:var(--leaf);line-height:1.1;z-index:1;transition:transform 1s .7s cubic-bezier(.3,.9,.3,1)}
+.env-card small{font-family:var(--serif);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--sage);margin-top:8px}
+.env-pocket{background:#DCD3BC;clip-path:polygon(0 0,50% 58%,100% 0,100% 100%,0 100%);border-radius:6px;z-index:2}
+.env-flap{background:#CFC4A8;clip-path:polygon(0 0,100% 0,50% 58%);transform-origin:50% 0;z-index:3;transition:transform .7s,z-index 0s .35s;border-radius:6px 6px 0 0}
+.seal{position:absolute;left:50%;top:58%;width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#8FA894,#2F4A3A);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--script);font-size:1.5rem;z-index:4;box-shadow:0 6px 12px -4px rgba(0,0,0,.4);transition:opacity .3s,transform .3s;animation:beat 1.8s ease-in-out infinite}
+#env.open .env-flap{transform:rotateX(180deg);z-index:0}
+#env.open .seal{opacity:0;transform:scale(.4)}
+#env.open .env-card{transform:translateY(-62%)}
+#env p{margin:0;color:var(--sage);letter-spacing:.16em;font-size:.85rem;text-transform:uppercase}
+
+/* hero */
+.hero{padding-top:70px;min-height:100svh;display:flex;flex-direction:column;justify-content:center}
+.balloon{width:64px;height:130px;margin:0 auto -4px;cursor:pointer;transform-origin:50% 100%;animation:sway 4.5s ease-in-out infinite;background:none;border:0;padding:0}
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.when{font-size:1.2rem;margin:.2em 0 1.6em}
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:520px;margin:0 auto}
+.box{background:var(--paper);border:1px solid var(--mist);border-radius:50% 50% 14px 14px/40% 40% 14px 14px;padding:16px 4px 12px;box-shadow:0 8px 24px -14px rgba(47,74,58,.45)}
+.box b{display:block;font-size:clamp(2rem,9vw,3rem);font-weight:500;color:var(--leaf);line-height:1;font-variant-numeric:tabular-nums}
+.box i{font-style:normal;font-size:.8rem;color:var(--sage)}
+.sleeps{margin:16px 0 0;font-style:italic;color:var(--sage)}
+#done{display:none;font-family:var(--script);font-size:clamp(2.4rem,10vw,4rem);color:var(--leaf)}
+.heart{display:inline-block;color:var(--rose);animation:beat 1.6s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
+
+/* calendar */
+.cal{max-width:430px;margin:0 auto;background:var(--paper);border:1px solid var(--mist);border-radius:22px;padding:22px 16px 26px;box-shadow:0 18px 40px -28px rgba(47,74,58,.6)}
+.cal h3{margin:0 0 10px;letter-spacing:.35em;font-weight:500;font-size:1.1rem}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);row-gap:4px;font-size:1.05rem}
+.grid .dow{font-style:italic;color:var(--sage);font-size:.9rem}
+.grid .day{height:42px;display:flex;align-items:center;justify-content:center;position:relative}
+.grid .past{color:#b8c3b9;text-decoration:line-through}
+.grid .today{box-shadow:inset 0 0 0 1.5px var(--sage);border-radius:50%;width:38px;margin:0 auto}
+.grid .the-day{font-weight:600;color:var(--rose);cursor:pointer}
+.grid .the-day svg{position:absolute;width:48px;height:48px;left:50%;top:50%;transform:translate(-50%,-52%);overflow:visible;animation:beat 1.8s ease-in-out infinite}
+.addcal{margin-top:16px;font:inherit;font-size:.95rem;background:none;border:0;color:var(--leaf);text-decoration:underline;cursor:pointer}
+
+/* venue ticket */
+.ticket{max-width:560px;margin:0 auto;display:grid;grid-template-columns:1fr 170px;background:var(--paper);border:1px solid var(--mist);border-radius:22px;overflow:hidden;text-align:start;box-shadow:0 18px 40px -28px rgba(47,74,58,.6)}
+.ticket .info{padding:24px 22px;border-inline-end:2px dashed var(--mist)}
+.ticket .info h3{font-family:var(--script);font-weight:400;font-size:2.2rem;margin:0;color:var(--leaf)}
+.ticket .info p{margin:.3em 0 1em}
+.ticket .qr{padding:18px;background:var(--blossom);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;font-size:.85rem;color:var(--sage)}
+.qr svg{width:100%;height:auto;display:block}
+.btn{display:inline-block;font:inherit;font-weight:600;font-size:.95rem;text-decoration:none;background:var(--leaf);color:#fff;border:0;border-radius:999px;padding:10px 20px;cursor:pointer}
+@media(max-width:520px){.ticket{grid-template-columns:1fr}.ticket .info{border-inline-end:0;border-bottom:2px dashed var(--mist)}.ticket .qr{flex-direction:row;justify-content:center}.ticket .qr>div{width:120px}}
+
+/* wishes */
+form{background:var(--paper);border:1px solid var(--mist);border-radius:22px;padding:24px 20px;text-align:start;box-shadow:0 18px 40px -28px rgba(47,74,58,.6)}
+label{display:block;font-size:.9rem;color:var(--sage);margin:0 0 4px}
+input[type=text],textarea{width:100%;font:inherit;color:var(--ink);background:var(--ivory);border:1px solid var(--mist);border-radius:12px;padding:12px 14px;margin-bottom:16px}
+textarea{min-height:130px;resize:vertical}
+input:focus,textarea:focus,button:focus-visible,a:focus-visible{outline:2px solid var(--sage);outline-offset:2px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.chip{font:inherit;font-size:.95rem;background:var(--blossom);color:var(--leaf);border:1px solid var(--mist);border-radius:999px;padding:6px 14px;cursor:pointer;text-align:start}
+.moods{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.moods label{margin:0;cursor:pointer}
+.moods input{position:absolute;opacity:0;width:0;height:0;margin:0}
+.moods span{display:inline-block;font-size:1.5rem;padding:4px 10px;border-radius:999px;border:1px solid var(--mist);background:var(--ivory)}
+.moods input:checked+span{background:var(--mist);border-color:var(--sage);transform:scale(1.1)}
+.moods input:focus-visible+span{outline:2px solid var(--sage)}
+.wa{display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;background:#25D366;color:#0b3d1d;font:inherit;font-weight:600;border:0;border-radius:999px;padding:13px 24px;cursor:pointer}
+.wa svg{width:22px;height:22px}
+#status{margin:12px 0 0;text-align:center;min-height:1.5em}
+.hint{text-align:center;margin:6px 0 0;font-size:.95rem}
+footer{position:relative;z-index:2;text-align:center;padding:30px 20px 60px;color:var(--sage);font-size:.95rem}
+@media(prefers-reduced-motion:reduce){.petals{display:none}.heart,.seal,.balloon,.grid .the-day svg{animation:none}html{scroll-behavior:auto}#env,#env *{transition:none!important}}
+</style>
+</head>
+<body>
+
+<div id="env" role="button" tabindex="0" aria-label="Open the invitation">
+  <div class="envelope">
+    <div class="env-back"></div>
+    <div class="env-card"><span>Ibrahim &amp; Yomna</span><small>26 · 11 · 2026</small></div>
+    <div class="env-pocket"></div>
+    <div class="env-flap"></div>
+    <div class="seal">I&amp;Y</div>
+  </div>
+  <p>Tap to open</p>
+</div>
+
+<div id="fx" aria-hidden="true"></div>
+<div class="petals" id="petals" aria-hidden="true"></div>
+
+<main>
+  <section class="hero">
+    <svg class="leaf tl" viewBox="0 0 200 200" aria-hidden="true"><use href="#sprig"/></svg>
+    <svg class="leaf br" viewBox="0 0 200 200" aria-hidden="true"><use href="#sprig"/></svg>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="sprig"><g fill="#8FA894"><ellipse cx="40" cy="30" rx="34" ry="12" transform="rotate(35 40 30)"/><ellipse cx="90" cy="48" rx="30" ry="10" transform="rotate(20 90 48)" fill="#A9BDAC"/><ellipse cx="30" cy="92" rx="32" ry="11" transform="rotate(70 30 92)"/><ellipse cx="78" cy="100" rx="28" ry="10" transform="rotate(45 78 100)" fill="#A9BDAC"/></g><g fill="#fff" stroke="#d9e2d6"><circle cx="58" cy="34" r="9"/><circle cx="52" cy="70" r="8"/><circle cx="96" cy="74" r="7"/></g><g fill="#E9D9A8"><circle cx="58" cy="34" r="2.5"/><circle cx="52" cy="70" r="2.2"/><circle cx="96" cy="74" r="2"/></g></g></defs></svg>
+
+    <button class="balloon" id="balloon" type="button" aria-label="Tap the heart for a surprise">
+      <svg viewBox="0 0 64 130" aria-hidden="true"><path d="M32 52C8 34 4 20 4 14a14 14 0 0 1 28-3 14 14 0 0 1 28 3c0 6-4 20-28 38z" fill="#B9566A" opacity=".9"/><path d="M32 52v78" stroke="#7E9A82" stroke-width="1.5" stroke-dasharray="1.5 4" stroke-linecap="round" fill="none"/></svg>
+    </button>
+    <p class="small">Save the date for the engagement of</p>
+    <h1>Ibrahim <span>&amp;</span> Yomna</h1>
+    <p class="ar" lang="ar" dir="rtl">ألف مبروك</p>
+    <p class="when">Thursday, 26 November 2026 · 7:00 PM · Happy Mall</p>
+    <div class="count" id="count" role="timer" aria-live="off">
+      <div class="box"><b id="d">--</b><i>days</i></div>
+      <div class="box"><b id="h">--</b><i>hours</i></div>
+      <div class="box"><b id="m">--</b><i>minutes</i></div>
+      <div class="box"><b id="s">--</b><i>seconds</i></div>
+    </div>
+    <p class="sleeps" id="sleeps"></p>
+    <p id="done">We’re engaged! <span class="heart">♥</span></p>
+    <p style="margin-top:1.6em"><a href="#month">See the month ↓</a></p>
+  </section>
+
+  <section id="month">
+    <h2>Every day brings us closer</h2>
+    <p class="lead">Days already gone are crossed off. One is circled in a heart. Tap it.</p>
+    <div class="cal">
+      <h3>NOVEMBER 2026</h3>
+      <div class="grid" id="grid"></div>
+      <button class="addcal" id="ics" type="button">Add to my calendar</button>
+    </div>
+  </section>
+
+  <section id="venue">
+    <h2>Find us at Happy Mall</h2>
+    <p class="lead">Scan the code with your phone camera, or tap the button to open the map.</p>
+    <div class="ticket">
+      <div class="info">
+        <h3>The Engagement</h3>
+        <p>Thursday, 26 November 2026<br>7:00 PM · Happy Mall</p>
+        <a class="btn" href="https://maps.app.goo.gl/354hLCnbwZBMmvw1A" target="_blank" rel="noopener">Open in Maps</a>
+      </div>
+      <div class="qr"><div style="width:100%;max-width:130px"><svg viewBox="0 0 29 29" class="segno"><path class="qrline" stroke="#2f4a3a" d="M0 0.5h7m1 0h1m2 0h1m1 0h1m2 0h5m1 0h7m-29 1h1m5 0h1m1 0h1m2 0h1m4 0h3m3 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m2 0h2m1 0h3m5 0h1m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h2m2 0h2m3 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m2 0h1m1 0h1m4 0h1m2 0h1m2 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m4 0h2m1 0h1m1 0h4m2 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-21 1h2m1 0h1m2 0h2m1 0h3m-20 1h1m1 0h2m1 0h3m2 0h2m2 0h1m1 0h2m4 0h1m2 0h1m1 0h2m-29 1h4m4 0h2m1 0h1m2 0h3m2 0h1m1 0h2m1 0h1m3 0h1m-29 1h2m1 0h1m2 0h1m1 0h4m1 0h1m7 0h2m1 0h1m1 0h2m-28 1h1m3 0h1m4 0h2m2 0h4m1 0h1m1 0h1m7 0h1m-28 1h2m3 0h2m4 0h2m2 0h4m3 0h1m1 0h2m-27 1h4m1 0h1m4 0h1m5 0h4m2 0h1m3 0h3m-27 1h7m2 0h1m1 0h1m4 0h3m1 0h1m3 0h3m-29 1h2m1 0h1m1 0h1m1 0h1m2 0h2m2 0h1m1 0h1m2 0h2m3 0h1m2 0h1m-28 1h2m2 0h1m1 0h1m1 0h1m7 0h1m2 0h3m2 0h2m1 0h1m-26 1h2m4 0h2m1 0h1m1 0h1m1 0h1m2 0h1m1 0h2m1 0h1m1 0h3m-28 1h1m1 0h1m3 0h2m2 0h1m4 0h1m4 0h2m1 0h2m1 0h1m-19 1h1m2 0h1m3 0h1m1 0h1m1 0h1m3 0h1m2 0h1m-26 1h2m2 0h2m2 0h1m2 0h2m2 0h11m-19 1h3m5 0h3m1 0h1m3 0h5m-29 1h7m1 0h1m2 0h1m2 0h1m2 0h1m1 0h2m1 0h1m1 0h2m1 0h1m-28 1h1m5 0h1m1 0h6m1 0h1m4 0h1m3 0h2m1 0h2m-29 1h1m1 0h3m1 0h1m2 0h4m7 0h5m1 0h3m-29 1h1m1 0h3m1 0h1m1 0h2m3 0h4m4 0h1m1 0h3m2 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m1 0h3m1 0h1m3 0h1m1 0h2m1 0h1m2 0h1m1 0h1m-29 1h1m5 0h1m2 0h1m1 0h3m4 0h1m1 0h2m1 0h3m1 0h1m-28 1h7m1 0h3m2 0h1m3 0h2m1 0h1m3 0h1m2 0h1"/></svg></div><span>Scan for directions</span></div>
+    </div>
+  </section>
+
+  <section id="wishes">
+    <h2>Send us your wishes</h2>
+    <p class="lead">Write your message here, tap the button, and it lands in our WhatsApp group. Arabic or English, we’ll read every one.</p>
+    <form id="form">
+      <label for="name">Your name</label>
+      <input type="text" id="name" required maxlength="60" autocomplete="name">
+      <label>Don’t know what to write? Tap one</label>
+      <div class="chips" id="chips">
+        <button type="button" class="chip">Mabrouk! Wishing you a lifetime of love 🤍</button>
+        <button type="button" class="chip" dir="rtl">ألف مبروك! ربنا يتمم لكم على خير</button>
+        <button type="button" class="chip">Can’t wait to celebrate with you both! 🥂</button>
+        <button type="button" class="chip">May your love story be the best one yet ✨</button>
+      </div>
+      <label for="message">Your message</label>
+      <textarea id="message" required maxlength="600" dir="auto" placeholder="Mabrouk! Wishing you both…"></textarea>
+      <label>Pick a little something</label>
+      <div class="moods">
+        <label><input type="radio" name="mood" value="💍" checked><span>💍</span></label>
+        <label><input type="radio" name="mood" value="💐"><span>💐</span></label>
+        <label><input type="radio" name="mood" value="🥂"><span>🥂</span></label>
+        <label><input type="radio" name="mood" value="✨"><span>✨</span></label>
+        <label><input type="radio" name="mood" value="🤍"><span>🤍</span></label>
+        <label><input type="radio" name="mood" value="🎉"><span>🎉</span></label>
+      </div>
+      <button class="wa" type="submit" id="send">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.2-4.2A8.5 8.5 0 1 1 8.3 18.9z"/></svg>
+        Send in our WhatsApp group
+      </button>
+      <p id="status" role="status"></p>
+      <p class="hint">WhatsApp opens with your message copied. Just paste it and press send. If it doesn’t open, <a href="https://chat.whatsapp.com/JsYxlI5pb97IuFZIVKZDvP?s=cl&amp;p=i&amp;mlu=4&amp;ilr=4&amp;iam=2" target="_blank" rel="noopener">open the group here</a>.</p>
+    </form>
+  </section>
+</main>
+<footer>Ibrahim &amp; Yomna · 26.11.2026</footer>
+
+<script>
+(function(){
+"use strict";
+var $ = function(id){ return document.getElementById(id); };
+document.documentElement.classList.add("js");
+var reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* Confetti of hearts, petals and sparkles from a point */
+function burst(x, y, n){
+  if(reduce || !document.body.animate) return;
+  var fx = $("fx"), bits = ["♥","❀","✦","♥","🤍"], cols = ["#B9566A","#7E9A82","#E9D9A8","#2F4A3A","#F2B8C2"];
+  for(var i=0;i<(n||26);i++){
+    var s = document.createElement("span");
+    s.textContent = bits[i % bits.length];
+    s.style.color = cols[i % cols.length];
+    s.style.fontSize = (12 + Math.random()*16) + "px";
+    fx.appendChild(s);
+    var a = Math.random()*Math.PI*2, d = 90 + Math.random()*170;
+    var dx = Math.cos(a)*d, dy = Math.sin(a)*d - 60;
+    var anim = s.animate([
+      {transform:"translate("+x+"px,"+y+"px) rotate(0deg) scale(.4)",opacity:1},
+      {transform:"translate("+(x+dx)+"px,"+(y+dy)+"px) rotate("+(Math.random()*360)+"deg) scale(1)",opacity:1,offset:.55},
+      {transform:"translate("+(x+dx*1.1)+"px,"+(y+dy+120)+"px) rotate("+(Math.random()*540)+"deg) scale(.8)",opacity:0}
+    ],{duration:1500+Math.random()*900,easing:"cubic-bezier(.2,.8,.3,1)"});
+    anim.onfinish = (function(el){ return function(){ el.remove(); }; })(s);
+  }
+}
+
+/* Envelope intro (shown once per visit) */
+var env = $("env");
+function openEnv(){
+  if(env.classList.contains("open")) return;
+  env.classList.add("open");
+  document.body.classList.remove("locked");
+  try{ sessionStorage.setItem("opened","1"); }catch(e){}
+  setTimeout(function(){ burst(innerWidth/2, innerHeight*0.45, 40); }, 650);
+  setTimeout(function(){ env.style.display = "none"; }, 2300);
+}
+var seen = false;
+try{ seen = sessionStorage.getItem("opened") === "1"; }catch(e){}
+if(seen){ env.style.display = "none"; } else { document.body.classList.add("locked"); }
+env.addEventListener("click", openEnv);
+env.addEventListener("keydown", function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); openEnv(); } });
+
+/* Countdown (Cairo time, UTC+2 in November) */
+var target = new Date("2026-11-26T19:00:00+02:00").getTime();
+function tick(){
+  var diff = target - Date.now();
+  if(diff <= 0){ $("count").style.display="none"; $("sleeps").style.display="none"; $("done").style.display="block"; return; }
+  var p = function(n){ return String(n).padStart(2,"0"); };
+  var days = Math.floor(diff/864e5);
+  $("d").textContent = days;
+  $("h").textContent = p(Math.floor(diff/36e5)%24);
+  $("m").textContent = p(Math.floor(diff/6e4)%60);
+  $("s").textContent = p(Math.floor(diff/1e3)%60);
+  $("sleeps").textContent = days > 1 ? days + " more sleeps until we celebrate" : (days === 1 ? "One more sleep!" : "It’s today!");
+}
+tick(); setInterval(tick, 1000);
+
+/* Tap the heart balloon */
+$("balloon").addEventListener("click", function(e){
+  var r = e.currentTarget.getBoundingClientRect();
+  burst(r.left + r.width/2, r.top + 30, 30);
+});
+
+/* November calendar with the heart on the 26th (1 Nov 2026 is a Sunday) */
+(function(){
+  var g = $("grid");
+  ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].forEach(function(n){
+    var d = document.createElement("div"); d.className="dow"; d.textContent=n; g.appendChild(d);
+  });
+  var now = new Date(), y = now.getFullYear(), mo = now.getMonth();
+  var afterNov = y > 2026 || (y === 2026 && mo > 10);
+  var inNov = y === 2026 && mo === 10;
+  for(var n=1;n<=30;n++){
+    var d = document.createElement("div"); d.className="day"; d.textContent=n;
+    if(n === 26){
+      d.classList.add("the-day");
+      d.insertAdjacentHTML("afterbegin",'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41C9 30 6 22 6 16a9 9 0 0 1 18-2 9 9 0 0 1 18 2c0 6-3 14-18 25z" fill="none" stroke="#B9566A" stroke-width="1.6" stroke-dasharray="1.5 3.2" stroke-linecap="round"/></svg>');
+      d.addEventListener("click", function(e){ var r=e.currentTarget.getBoundingClientRect(); burst(r.left+r.width/2, r.top+r.height/2, 24); });
+    } else if(afterNov || (inNov && n < now.getDate())){ d.classList.add("past"); }
+    else if(inNov && n === now.getDate()){ d.classList.add("today"); }
+    g.appendChild(d);
+  }
+})();
+
+/* Add to calendar (.ics) */
+$("ics").addEventListener("click", function(){
+  var ics = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Ibrahim and Yomna//EN","BEGIN:VEVENT","UID:engagement-2026-11-26@ibrahim-yomna","DTSTAMP:20261107T000000Z","DTSTART:20261126T170000Z","DTEND:20261126T200000Z","SUMMARY:Ibrahim & Yomna's Engagement","LOCATION:Happy Mall","URL:https://maps.app.goo.gl/354hLCnbwZBMmvw1A","END:VEVENT","END:VCALENDAR"].join("\r\n");
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([ics],{type:"text/calendar"}));
+  a.download = "ibrahim-yomna-engagement.ics";
+  document.body.appendChild(a); a.click(); a.remove();
+});
+
+/* Falling petals */
+if(!reduce){
+  var box = $("petals");
+  for(var i=0;i<16;i++){
+    var el = document.createElement("div"); el.className = "petal";
+    el.style.left = Math.random()*100 + "%";
+    el.style.setProperty("--dx", (Math.random()*160-80) + "px");
+    el.style.animationDuration = (12 + Math.random()*14) + "s";
+    el.style.animationDelay = (-Math.random()*20) + "s";
+    box.appendChild(el);
+  }
+}
+
+/* Quick-wish chips */
+$("chips").addEventListener("click", function(e){
+  var b = e.target.closest ? e.target.closest(".chip") : null;
+  if(!b) return;
+  $("message").value = b.textContent;
+  $("message").focus();
+});
+
+/* Send to the WhatsApp group (a web page cannot post into a group itself: copy, then open the group) */
+var GROUP = "https://chat.whatsapp.com/JsYxlI5pb97IuFZIVKZDvP?s=cl&p=i&mlu=4&ilr=4&iam=2";
+function copyText(t){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    return navigator.clipboard.writeText(t).then(function(){ return true; }, function(){ return legacyCopy(t); });
+  }
+  return Promise.resolve(legacyCopy(t));
+}
+function legacyCopy(t){
+  var ta = document.createElement("textarea");
+  ta.value = t; ta.style.position = "fixed"; ta.style.opacity = "0";
+  document.body.appendChild(ta); ta.select();
+  var ok = false; try{ ok = document.execCommand("copy"); }catch(e){}
+  ta.remove(); return ok;
+}
+$("form").addEventListener("submit", function(e){
+  e.preventDefault();
+  var picked = document.querySelector('input[name="mood"]:checked');
+  var mood = picked ? picked.value : "💍";
+  var text = mood + " Mabrouk Ibrahim & Yomna!\n\n" + $("message").value.trim() + "\n\n— " + $("name").value.trim();
+  copyText(text).then(function(ok){
+    $("status").textContent = ok
+      ? "Copied ✓ Opening WhatsApp. Paste your message and send."
+      : "Couldn’t copy automatically. Copy your message, then open the group below.";
+    var r = $("send").getBoundingClientRect();
+    burst(r.left + r.width/2, r.top, 22);
+    window.open(GROUP, "_blank", "noopener");
+  });
+});
+})();
+</script>
+</body>
+</html>
